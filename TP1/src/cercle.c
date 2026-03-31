@@ -4,7 +4,11 @@
 int main() {
 double pi = 3.1416;
 double rayon = 6;  
-    printf("L'air du cercle = %f", pi*(rayon*rayon));
-   printf("Le périmètre du cercle = %f", pi*(rayon+rayon));
+double aire;
+double perimetre;
+    aire = pi*rayon*rayon;
+    perimetre = 2*pi*rayon
+    printf("L'air du cercle = %f", aire);
+   printf("Le périmètre du cercle = %f", perimetre);
 }
 
